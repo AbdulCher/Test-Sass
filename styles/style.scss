@@ -1,0 +1,31 @@
+$bluegreen: #48D1CC;
+.btn {
+    padding: 15px;
+    border: none;
+    width: 200px;
+    background: darken($bluegreen, 20%);
+    color: #242424;
+  }
+  
+  .btn-round {
+    border-radius: 30px;
+  }
+  
+  .btn-wide { 
+    width: 400px;
+  }
+  
+  .btn-orange {
+    border-radius: 30px;
+    background: #e67e22;
+  }
+  
+  .buttons-exercise {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media (max-width: 770px) {
+      flex-direction: row;
+    }
+  }

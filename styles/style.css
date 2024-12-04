@@ -1,0 +1,22 @@
+.btn {
+  padding: 15px;
+  border: none;
+  width: 200px;
+  background: rgb(35.9563318777, 143.0436681223, 139.135371179);
+  color: #242424;
+}
+
+.btn-round {
+  border-radius: 30px;
+}
+
+.btn-wide {
+  width: 400px;
+}
+
+.btn-orange {
+  border-radius: 30px;
+  background: #e67e22;
+}
+
+/*# sourceMappingURL=style.css.map */
